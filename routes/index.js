@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 router.get('/Hayden', function(req,res,next){
   //show Haydens blurb
   var haydenText = ('Hayden is my 5 year old daughter.  She loves horseback' +
-  'riding, colouring and reading books.');
+  ' riding, colouring and reading books.');
   res.render('Hayden', {
     title: 'Hayden',
     Hayden: haydenText
